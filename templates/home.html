@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css')}}" >
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <header class="header">
+        <img src="{{ url_for('static', filename='images/logo_new.png')}}" alt="" height="100px" width="100px">
+        <nav class="navbar">
+            <a href="" class="">Home</a>
+            <a href="" class="">Get Started</a>
+            <a href="" class="">Services</a>
+            <a href="" class="">About</a>
+            <a href="" class="">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+    <div class="home">
+        <div class="main-home">
+            
+            <div class="main-content">
+                <h1 class="heading">ML Cure</h1><br><br>
+                <h1>Machine Learning in Healthcare</h1><br><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+
+            <div class="main-content">
+
+                <div class="main-image">
+                    <img src="{{ url_for('static', filename='images/1st_home.jpg')}}" alt="">
+                </div>
+
+            </div>
+        </div>   
+    </div>
+
+    <div class="home">
+        <div class="main-home">
+            
+            <div class="main-content">
+
+                <div class="main-image">
+                    <img src="{{ url_for('static', filename='images/2nd_home.jpg')}}" alt="">
+                </div>
+
+            </div>
+
+            <div class="main-content">
+                <h1 class="heading">ML Cure</h1><br><br>
+                <h1>Machine Learning in Healthcare</h1><br><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- GETTING STARTED SECTION -->
+
+    <section class="get-started">
+        <div class="gS">
+            <div class="inner-gS">
+                <h1>Click Here to know more</h1>
+                <a href="/choose" class="button-73">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CARDS FOR SERVICES SECTION -->
+    <div class="main-services">
+        <div class="inner-services">
+            <img src="{{ url_for('static', filename='images/3rd_home.jpg')}}" alt="">
+            <div class="content-services">
+                <h1>Sample</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit. Assumenda, explicabo?</p>
+            </div>
+        </div>
+
+        <div class="inner-services">
+            <img src="{{ url_for('static', filename='images/3rd_home.jpg')}}" alt="">
+            <div class="content-services">
+                <h1>Sample</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit. Assumenda, explicabo?</p>
+            </div>
+        </div>
+
+        <div class="inner-services">
+            <img src="{{ url_for('static', filename='images/3rd_home.jpg')}}" alt="">
+            <div class="content-services">
+                <h1>Sample</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit. Assumenda, explicabo?</p>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
